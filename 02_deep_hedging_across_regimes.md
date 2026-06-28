@@ -19,17 +19,17 @@ $$
 \mathrm{\textit{d}PnL} \;\approx\; \frac12 \Gamma_i S_i^2 \Bigl[\bigl(\tfrac{\Delta S}{S}\bigr)^2 - \sigma^2\Delta t\Bigr] \;\approx\; \frac12 \Gamma_i S_i^2 \,\sigma^2\Delta t\,(\varepsilon^2-1).
 $$
 
-From (1) and $\mathbb{E}[\varepsilon^2]=1$, $\operatorname{Var}(\varepsilon^2)=2$:
+From (1) and $\mathbb{E}[\varepsilon^2]=1$, $\text{Var}(\varepsilon^2)=2$:
 
 $$
 \mathbb{E}[d\mathrm{PnL}] \approx \frac12 \Gamma_i S_i^2 \,\sigma^2\Delta t\,\mathbb{E}[\varepsilon^2-1] = 0 .
 $$
 
-Hence $\operatorname{Var}(d\mathrm{PnL}) = \mathbb{E}[d\mathrm{PnL}^2] - (\mathbb{E}[d\mathrm{PnL}])^2 = \mathbb{E}[d\mathrm{PnL}^2]$.
+Hence $\text{Var}(d\mathrm{PnL}) = \mathbb{E}[d\mathrm{PnL}^2] - (\mathbb{E}[d\mathrm{PnL}])^2 = \mathbb{E}[d\mathrm{PnL}^2]$.
 
 $$
 \begin{aligned}
-\operatorname{Var}(d\mathrm{PnL})
+\text{Var}(d\mathrm{PnL})
 &\approx \Bigl(\frac12 \Gamma_i S_i^2 \sigma^2\Delta t\Bigr)^2 \mathbb{E}[(\varepsilon^2-1)^2] = \Bigl(\frac12 \Gamma_i S_i^2 \sigma^2\Delta t\Bigr)^2 \cdot 2
 \;\propto\; (\Delta t)^2 .
 \end{aligned}
@@ -38,8 +38,8 @@ $$
 Summing $n$ independent steps over a fixed horizon $T=n\Delta t$,
 
 $$
-\operatorname{Var}(\text{PnL})
-\approx \sum_{i=0}^{n-1} \operatorname{Var}(d\mathrm{PnL}_i)
+\text{Var}(\text{PnL})
+\approx \sum_{i=0}^{n-1} \text{Var}(d\mathrm{PnL}_i)
 \propto n \cdot (\Delta t)^2
 = n\cdot\frac{T^2}{n^2} = \frac{T^2}{n}.
 $$
@@ -47,9 +47,9 @@ $$
 Since $T$ is **fixed**, the only variable part is $1/n$. Thus
 
 $$
-\operatorname{Var}(\text{PnL}) = O\Bigl(\frac{1}{n}\Bigr),
+\text{Var}(\text{PnL}) = O\Bigl(\frac{1}{n}\Bigr),
 \qquad
-\operatorname{Std}(\text{PnL}) = O\Bigl(\frac{1}{\sqrt{n}}\Bigr).
+\text{Std}(\text{PnL}) = O\Bigl(\frac{1}{\sqrt{n}}\Bigr).
 $$
 
 
