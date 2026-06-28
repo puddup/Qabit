@@ -67,7 +67,7 @@ Putting §2 and §3 together, each floor advances by its own schemes and is then
 living benefit:
 
 $$
-G^{\bullet}_{n^-}=\max_{\text{schemes}}\big\{\text{scheme.update}(G^{\bullet}_{(n-1)^+},A_{n^-})\big\},
+G^{\bullet}_{n^-}=\max_{\text{schemes}}\{\text{scheme.update}(G^{\bullet}_{(n-1)^+},A_{n^-})\},
 \qquad
 G^{\bullet}_{n^+}=G^{\bullet}_{n^-}-\Delta B^{L}_n .
 $$
