@@ -232,17 +232,17 @@ toward the static floor.*
 
 ## 6 · Fair fees and the fee–penalty surface
 
-The contract is **fairly priced** when $V_0(\alpha)=P$; the fair fee $\alpha^*$ solves
+The contract is **fairly priced** when $V_0(\alpha)=P$; the fair fee $\alpha^\*$ solves
 this. Because $V_0^S\le V_0^{S+S}$, the fair fee for the surrenderable contract is always
-the higher one: $\alpha^{*,S}\le\alpha^{*,S+S}$. Mapping the mixed value over the
+the higher one: $\alpha^{*,S}\le\alpha^{\*,S+S}$. Mapping the mixed value over the
 fee–penalty plane $(\varphi,\kappa)$ gives a clean monotone surface whose $V_0=P$ contour
 is the locus of fair contracts — the desk's pricing menu.
 
 ![GMWB fee–penalty value surface](figures/p1_fee_penalty_surface.png)
 
-*GMWB mixed value over the fee $\varphi$ and surrender charge $\kappa$. The value falls in
+GMWB mixed value over the fee $\varphi$ and surrender charge $\kappa$. The value falls in
 the fee (more is skimmed from the account) and rises as the charge falls (surrender is
-worth more). The $V_0=P$ contour is the fair-fee curve.*
+worth more). The $V_0=P$ contour is the fair-fee curve.
 
 
 ## 7. Fairs fees and the fee-equity surface
