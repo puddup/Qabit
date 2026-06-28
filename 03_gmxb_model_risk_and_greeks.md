@@ -100,7 +100,7 @@ Now the model-risk move. Train one standard deep hedge on a **center calibration
 vol $\sigma=18\%$, Vasicek mean rate $3\%$, mortality modal age 80). Freeze the policy —
 weights *and* its calibrated input standardiser — and evaluate it under **shifted** worlds
 with no retraining. For each world record the hedged-book terminal wealth
-$W=\text{center price}+(\text{hedge P\&L}-\text{liability}-\text{costs})$; its mean is the
+$W=\text{center price}+(\text{hedge PnL}-\text{liability}-\text{costs})$; its mean is the
 model-risk **bias**, its 5% CVaR the **tail loss**. A fixed seed across grid points makes
 every surface a paired comparison.
 
