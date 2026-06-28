@@ -237,7 +237,7 @@ in the realistic R3 world. The delta peaks at-the-money inside the local band an
 the cap and floor (dotted) — the prior supplies the band, the network supplies the regime
 correction.*
 
-### Lookback — the right coordinate is the lock-in
+### Lookback 
 
 ![Lookback collapse, R1](figures/p2_lookback_R1_cloud.png)
 ![Lookback collapse, R3](figures/p2_lookback_R3_cloud.png)
