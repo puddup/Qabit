@@ -184,7 +184,7 @@ gap between the two curves is exactly the convexity of the put in the time-to-de
 ![Titanic option hump vs expected lifetime](figures/p1_titanic_hump.png)
 
 The Titanic (death-benefit) value humps in $\mathbb{E}[\tau_D]$ while the European put at
-the mean lifetime is monotone — the gap is the Jensen convexity term, i.e. $= 1 - E_\lambda\!\left[e^{-l\tau}\right] \;<\; 1 - e^{-l\,E_\lambda[\tau]}$, therefore assuming that both options are subject to the same drift (i.e. fees are deducted), then the Jensen's gap is dictated by the shape of the curve describing fees as function of the time-to-death, as long as that is convex, evaluating with the mean time-to-death the expected value of fees paid will be always higher, perhaps the key component of the cross in valuation is dictated by $\partial^2 \phi / \partial \tau^2 \le 0$. Reproduces Milevsky
+the mean lifetime is monotone — the gap is the Jensen convexity term, i.e. $= 1 - E_\lambda\left[e^{-l\tau}\right] <\; 1 - e^{-l\,E_\lambda[\tau]}$, therefore assuming that both options are subject to the same drift (i.e. fees are deducted), then the Jensen's gap is dictated by the shape of the curve describing fees as function of the time-to-death, as long as that is convex, evaluating with the mean time-to-death the expected value of fees paid will be always higher, perhaps the key component of the cross in valuation is dictated by $\partial^2 \phi / \partial \tau^2 \le 0$. Reproduces Milevsky
 & Posner (2001), Fig. 11.2.
 
 ---
