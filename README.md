@@ -1,4 +1,4 @@
-# QaBit · GMxB Deep Hedging — A Three-Part Series
+# QaBit · GMxB Deep Hedging
 
 A unifying framework for pricing **variable annuities with guarantees** (GMDB / GMAB /
 GMWB), a **neural hedging policy** that learns to replicate them across market regimes, and
