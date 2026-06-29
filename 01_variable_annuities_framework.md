@@ -108,7 +108,7 @@ upper envelope of all of them; this is the "contract geometry" that the hedger i
 and 3 has to track.
 
 <p align="center">
-  <img src="figures/p1_floor_mechanisms" alt="Cliquet pathwise delta, R1" width="75%" />
+  <img src="figures/p1_floor_mechanisms.png" alt="Cliquet pathwise delta, R1" width="75%" />
 </p>
 
 *Each floor starts at the premium $P$ and advances by its own rule. **Fixed** is flat; **roll-up** grows deterministically at $\delta$; **ratchet** locks in new account highs and never falls; the **composite** is the maximum of all three. The account $A_t$ (black) is the thing being floored.*
