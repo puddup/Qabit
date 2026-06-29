@@ -107,7 +107,9 @@ The figure below materialises each mechanism on one fund path. The composite flo
 upper envelope of all of them; this is the "contract geometry" that the hedger in Parts 2
 and 3 has to track.
 
-![Guarantee-floor mechanisms on one path](figures/p1_floor_mechanisms.png)
+<p align="center">
+  <img src="figures/p1_floor_mechanisms" alt="Cliquet pathwise delta, R1" width="75%" />
+</p>
 
 *Each floor starts at the premium $P$ and advances by its own rule. **Fixed** is flat; **roll-up** grows deterministically at $\delta$; **ratchet** locks in new account highs and never falls; the **composite** is the maximum of all three. The account $A_t$ (black) is the thing being floored.*
 
